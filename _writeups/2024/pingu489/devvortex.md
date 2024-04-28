@@ -107,7 +107,7 @@ Found: dev.devvortex.htb
 
 ```
 
-Y tambien lo añadiremos tambien a nuestro archivo de hosts la nueva url que ha encontrado.
+Y tambien lo añadiremos a nuestro archivo de hosts la nueva url que ha encontrado.
 
 ```
 echo “10.10.11.242 dev.devvortex.htb” | sudo tee –a /etc/hosts
@@ -120,9 +120,9 @@ gobuster dir -u dev.devvortex.htb -w /home/pingu/Escritorio/Diccionarios/common.
 
 
 Si entramos en la nueva direccion que nos ha dado gobuster veremos la otra web y en el directorio /robots.txt veremos otros directorios donde nos podemos meter.
-![Branching](/assets/images/devvortex/robots.jpg)
+![Branching](/assets/images/devvortex/robots.JPG)
 
-LA que nos interesa es "administrador" asi que lo ponemos en nuestra barra de navegador quedando asi : http://dev.devvortex.htb//administrator/ y veremos un subdominio para loguear con una cuenta
+LA que nos interesa es "administrador" asi que lo ponemos en nuestra barra de navegador quedando asi : http://dev.devvortex.htb/administrator/ y veremos un subdominio para loguear con una cuenta
 ![Branching](/assets/images/devvortex/administrador.jpg)
 
 Si no fijamos esta hecha en la plataforma Joomla, haciendo una busqueda por internet podemos encontrar una vulnerabilidad en joombla
