@@ -12,9 +12,12 @@ comments: true
 Hack The Box 
 
 Maquina: Devvortex
+
 Objetivo: Un sistema operativo Linux con una vulnerabilidad en una aplicación web que lleva al escalamiento de privilegios.
+
 Dificultad: Facil
-Link de la maquina: https://app.hackthebox.com/machines/Devvortex
+
+
 ---
 ## Escaneo
 Fase 1: Escaneo de puertos 
