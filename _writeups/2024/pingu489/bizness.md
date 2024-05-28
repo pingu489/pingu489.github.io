@@ -42,7 +42,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 Esta utilizando el puerto 80, asi que tiene una pagina web activa.
 
-![Branching](/assets/images/bizznes/biznessweb.jpg
+![Branching](/assets/images/bizznes/biznessweb.jpg)
 
 Intente utilizar varias veces la herramienta que utilice en la maquina devvortex pero me daba un error asi que probe "dirbuster" que es una alternativa y busque los directorios ocultos y uno me llamo la atencion... se llamaba "control/login", al tener el nombre de login supuse que seria el login de la pagina.
 ```
@@ -60,7 +60,7 @@ Dir found: /control/login/ - 200
 
 Y lo era!
 
-![Branching](/assets/images/bizznes/loginweb.jpg
+![Branching](/assets/images/bizznes/loginweb.jpg)
 
 Probe las tipicas contraseñas como "admin" "root" pero nada... y me fije arriba que ponia : OFBizz
 
